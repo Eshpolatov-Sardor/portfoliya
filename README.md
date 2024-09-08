@@ -9,17 +9,9 @@
 ![gsap](https://img.shields.io/badge/GreenSock-24A47F.svg?style=flat-square&logo=greensock&logoColor=white)
 ![nodejs](https://img.shields.io/badge/Node.js-339933.svg?style=flat-square&logo=nodedotjs&logoColor=white)
 
-![cover](./github-assets/cover.png)
-
----
-
 ### Section 1: Introduction
 
 This project draws significant inspiration from **bokoko33**'s website. Working on this endeavor allowed me to explore various facets of Three.js and Blender, becoming more proficient in both. The outcome achieved closely resembles the original website, with some touch of my own.
-
-This project is live [here](https://oscar-threejs.vercel.app/)
-
-Check out Bokoko33's original website [here](https://bokoko33.me/)
 
 ---
 
@@ -55,8 +47,6 @@ Most animations in this project are accomplished with the help of the GSAP libra
 
 #### 3.4 GLSL Shader
 
-<img src="./github-assets/ShadersDemo.gif" width="400px">
-
 I got to learn the basics of the GLSL language to generate amazing textures as part of this project. This allows me to generate patterns and animations that are both intricate and beautiful. The patterns in the frames are generated via this method in this project.
 
 #### 3.5 CSS Animation
@@ -78,12 +68,3 @@ What made this project truly exciting was the introduction to new concepts such 
 Looking ahead, I am eager to further immerse myself in these technologies, honing my skills to produce intricate and mesmerizing patterns and animations. This project drew inspiration from Bokoko33's website design, and with the knowledge gained from its creation, I aspire to craft even more remarkable and awe-inspiring websites in the future.
 
 ---
-
-### Acknowledgements
-
-Credits to **Bokoko33**'s original website which I drew much inspiration from.  
-Bokoko's Website: [https://bokoko33.me/](https://bokoko33.me/)  
-Bokoko's Twitter: [https://twitter.com/bokoko33](https://twitter.com/bokoko33)
-
-Also credits to **Andrew Woan** for his amasing tutorials on Three.js and gsap timelines.  
-Andrew Woan's Youtube: [https://www.youtube.com/@andrewwoan](https://www.youtube.com/@andrewwoan)
