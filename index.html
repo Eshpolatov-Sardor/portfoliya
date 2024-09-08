@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/dcee5ef514.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <div class="asscrollbar">
+        <div class="asscrollbar__handle"><div></div></div>
+      </div>
+
+      <div class="clock">
+        <h1 id="time"></h1>
+        <span id="timeFormat"></span>
+      </div>
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z"
+            />
+          </svg>
+        </div>
+
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+
+        <div class="moon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <div style="display: flex;justify-content: end;">
+              <div class="intro-text">Welcome to my portfolio!</div>
+              <img style="margin-left: -50px; border-radius: 50px;margin-top: 170px; width: 250px;" src="/public/favicon/odam-removebg-preview.png" alt="ram my">
+            </div>
+
+            <div class="arrow-wrapper">
+              <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+              </div>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">Eshpolatoff</h1>
+              <p class="hero-main-description">
+                Student of Data Science and AI | Aspiring programmer
+              </p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading">MY</p>
+              <p class="hero-second-description">P.O.RT.F.OL.I.O</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Introduction</span>
+              <div class="section-title-decoration style1"></div>
+              <div class="section-title-decoration style2"></div>
+              <div class="section-title-decoration style3"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">About Me</h3>
+            <p class="section-text">
+              Hi, I'm Sardar, I grew up in Uzbekistan and I'm currently studying for a bachelor's degree in the University of Information Technology. I also have a keen interest in 3D art and rendering. I hope I can put my skills to good use.
+            </p>
+            <button class="section-button flex">
+              <a href="/others/asosiy.pdf" target="_blank">My resume 1 →</a>
+            </button>
+            <button class="section-button flex">
+              <a href="/others/Coursera.pdf" target="_blank">My resume 2 →</a>
+            </button>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Projects</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <div style="padding-bottom: 20px;">
+              <div style="display: flex; justify-content: center;align-items: center;font-size: 20px; flex-wrap: wrap; margin-top: 50px;">
+                <img style="width: 350px; height: 350px; border-radius: 100%;" src="/public/favicon/image.png" alt="chesemarking shop">
+                <p style="margin-left:50px; font-size:24px;font-weight: bold;">Written in React, Typescript, Tailwindcss
+                </p>
+              </div>
+              <div style="display: flex;">
+                <button class="section-button">
+                  <a
+                    href="https://github.com/Eshpolatov-Sardor/cheesemarkin-shop"
+                    target="_blank"
+                    >Github repo →</a
+                  >
+                </button>
+                <button class="section-button">
+                  <a
+                    href="https://cheesemarkin-shop.vercel.app/"
+                    target="_blank"
+                    >Live open →</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: center;align-items: center;font-size: 20px; flex-wrap: wrap; margin-top: 50px;">
+                <img style="width: 350px; height: 350px; border-radius: 100%;" src="/public/favicon/image copy.png" alt="">
+                <p style="margin-left:50px; font-size:24px;font-weight: bold;">Written in React, Typescript, Tailwindcss
+                </p>
+              </div>
+              <button class="section-button">
+                <a
+                  href="https://github.com/Eshpolatov-Sardor/ClimaCode"
+                  target="_blank"
+                  >Github repo →</a
+                >
+              </button>
+              <button class="section-button">
+                <a
+                  href="https://clima-code-mu.vercel.app/"
+                  target="_blank"
+                  >Live open →</a
+                >
+              </button>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: center;align-items: center;font-size: 20px; flex-wrap: wrap; margin-top: 50px;">
+                <img style="width: 400px; height: 400px; border-radius: 100%;" src="/public/favicon/image copy 2.png" alt="">
+                <p style="margin-left:50px; font-size:24px;font-weight: bold;">Written in React, Typescript, Tailwindcss
+                </p>
+              </div>
+              <button class="section-button">
+                <a
+                  href="https://github.com/Eshpolatov-Sardor/canculater"
+                  target="_blank"
+                  >Github repo →</a
+                >
+              </button>
+              <button class="section-button">
+                <a
+                  href="https://canculater.vercel.app/"
+                  target="_blank"
+                  >Live open →</a
+                >
+              </button>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: center;align-items: center;font-size: 20px; flex-wrap: wrap; margin-top: 50px;">
+                <img style="width: 350px; height: 350px; border-radius: 100%;" src="/public/favicon/image copy 3.png" alt="">
+                <p style="margin-left:50px; font-size:24px;font-weight: bold;">Written in React, Typescript, Tailwindcss
+                </p>
+              </div>
+              <button class="section-button">
+                <a
+                  href="https://github.com/Eshpolatov-Sardor/parol-random"
+                  target="_blank"
+                  >Github repo →</a
+                >
+              </button>
+              <button class="section-button">
+                <a
+                  href="https://parol-random.vercel.app/"
+                  target="_blank"
+                  >Live open →</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Next Step</span>
+              <div class="section-title-decoration style1 green-border"></div>
+              <div class="section-title-decoration style2 green-border"></div>
+              <div
+                class="section-title-decoration style3 green-background green-border"
+              ></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Next step...</h3>
+            <p class="section-text">
+              Through this project, I had the opportunity to improve and strengthen my CSS and JavaScript skills. In particular, I focused on using global variables in CSS to further simplify my code and learned how to create simple CSS animations using keyframes. At the same time, I delved deeper into object-oriented JavaScript, which allowed me to use simple design principles to better organize and make my code more efficient.
+            </p><br>
+            <p class="section-text">
+              What made this project really exciting was my exposure to new concepts like Three.js and GLSL. Three.js turned out to be an excellent framework for visualizing 3D assets, including those created with Blender. I also dabbled in GLSL programming, which allowed me to create cool and unique animations that could be projected onto objects within the scene.
+            </p><br>
+            <p class="section-text">
+              In the future, I want to delve deeper into these technologies and improve my skills in creating complex and amazing patterns and animations. with the knowledge I gained during the creation of this project, I will strive to create even more amazing and powerful websites in the future.
+            </p>
+          </div>
+        </section>
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Contact Me</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">04</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Contact Me</h3>
+            <p class="section-text">
+              Feel free to explore my repositories and reach out to me. I'm
+              always looking for opportunities to learn and grow as a developer.
+            </p>
+            <ul class="contact-button-wrapper">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span
+                  ><a href="https://github.com/Eshpolatov-Sardor" target="_blank"
+                    ><i class="fa-brands fa-github"></i></a
+                ></span>
+              </li>
+              <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/sardor-eshpo-latov-5446712b7/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+              </li>
+              <li class="icon gmail">
+                <span class="tooltip">Email: eshpolatovsardor18@gmail.com</span>
+                <span
+                  ><a href="mailto:eshpolatovsardor18@gmail.com" target="_blank"
+                    ><i class="fa-regular fa-envelope"></i></a
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
